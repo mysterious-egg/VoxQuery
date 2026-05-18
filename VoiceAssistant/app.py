@@ -14,10 +14,17 @@ sys.path.insert(0, parent_dir)
 
 # Imports
 from AskQuery.data_handler import process_csv
-from speech_utils import recognize_speech
 from AskQuery import rag_engine
-from VoiceAssistant.tts import speak
+try:
+    from speech_utils import recognize_speech
+except Exception:
+    recognize_speech = None
 
+
+try:
+    from VoiceAssistant.tts import speak
+except Exception:
+    speak = lambda x: None
 
 generate_analysis = rag_engine.generate_analysis
 
