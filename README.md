@@ -148,25 +148,7 @@ Built with Model Context Protocol in mind. The backend exposes analysis tools as
 - **Quick Analysis** – Perfect for time-sensitive data moments
 - **Educational Tool** – Learn data analysis through conversation
 
----
-
-## 📊 Performance
-
-| Metric | Result |
-|--------|--------|
-| Query → Answer | < 3 seconds |
-| Voice Recognition Accuracy | 95%+ (quiet environments) |
-| Embedding Latency | ~50ms |
-| API Response (Gemini) | ~800ms |
-
----
-
-## 🤝 Contributing
-
-We're building this in the open. Issues, PRs, and suggestions are always welcome.
-
-```bash
-# Fork and create a branch
+ create a branch
 git checkout -b feature/your-idea
 
 # Make your magic
@@ -178,19 +160,3 @@ git push origin feature/your-idea
 
 ---
 
-## 📝 License
-
-MIT License – See LICENSE file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Google Gemini for the backbone AI
-- FAISS for blazing-fast similarity search
-- Streamlit for making UI friction disappear
-- The open-source ML community
-
----
-
-**Made with ❤️ by the VoxQuery team**
