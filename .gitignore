@@ -1,0 +1,130 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Python Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit Test / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+*.iml
+.classpath
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.lnk
+desktop.ini
+
+# Streamlit Cache
+.streamlit/
+.streamlit/config.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+.ipython/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE Temp Files
+*.tmp
+*.bak
+*.swp
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Node modules (if used)
+node_modules/
+
+# Local testing files
+test_files/
+*.csv
+data/
+temp/
+
+# API Keys and Credentials (Extra safety)
+*.pem
+*.key
+*.crt
+secrets.json
+
+# Build outputs
+dist/
+build/
+*.whl
