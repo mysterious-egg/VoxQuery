@@ -18,7 +18,6 @@ from speech_utils import recognize_speech
 from AskQuery import rag_engine
 from VoiceAssistant.tts import speak
 
-st.write("Loaded from:", rag_engine.__file__)
 
 generate_analysis = rag_engine.generate_analysis
 
